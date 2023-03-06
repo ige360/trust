@@ -1,0 +1,41 @@
+.container-fluid {
+  background-color: #2F58CD;
+  padding-left: 20%;
+  padding-bottom: 7%;
+}
+h2 {
+  color: #fff;
+  padding: 10% 0% 1%;
+  font-size: 2.2rem;
+}
+.form-text {
+  padding: 3% 0% 0%;
+  color: #fff;
+}
+.form-input {
+  width: 40%;
+  border-color: white;
+  border-radius: 2%;
+  background: #f1f1f1;
+  height: 100%;
+  padding: 8px;
+}
+.form-input:hover {
+  border-color: gold;
+}
+
+
+
+
+@media (max-width: 1028px) {
+  .container-fluid {
+    padding-left: 2%;
+  }
+  .form-input {
+    width: 100%;
+  }
+  .base {
+   margin: auto;
+   width: 45%;
+  }
+}
